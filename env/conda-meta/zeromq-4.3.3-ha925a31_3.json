@@ -1,0 +1,172 @@
+{
+  "build": "ha925a31_3",
+  "build_number": 3,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "libsodium >=1.0.18,<1.0.19.0a0",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\harri\\miniconda3\\pkgs\\zeromq-4.3.3-ha925a31_3",
+  "features": "",
+  "files": [
+    "Library/CMake/ZeroMQConfig.cmake",
+    "Library/CMake/ZeroMQConfigVersion.cmake",
+    "Library/CMake/ZeroMQTargets-release.cmake",
+    "Library/CMake/ZeroMQTargets.cmake",
+    "Library/bin/libzmq-mt-4_3_3.dll",
+    "Library/bin/libzmq.dll",
+    "Library/include/zmq.h",
+    "Library/include/zmq_utils.h",
+    "Library/lib/libzmq-mt-4_3_3.lib",
+    "Library/lib/libzmq-mt-s-4_3_3.lib",
+    "Library/lib/libzmq.lib",
+    "Library/lib/pkgconfig/libzmq.pc",
+    "Library/share/zmq/AUTHORS.txt",
+    "Library/share/zmq/COPYING.LESSER.txt",
+    "Library/share/zmq/COPYING.txt",
+    "Library/share/zmq/NEWS.txt",
+    ".nonadmin"
+  ],
+  "fn": "zeromq-4.3.3-ha925a31_3.conda",
+  "legacy_bz2_md5": "398badb553367cace6d968470b1e48cb",
+  "legacy_bz2_size": 9364894,
+  "license": "LGPL 3",
+  "link": {
+    "source": "C:\\Users\\harri\\miniconda3\\pkgs\\zeromq-4.3.3-ha925a31_3",
+    "type": 1
+  },
+  "md5": "63fce35dc529f80ade693591eee9d5c3",
+  "name": "zeromq",
+  "package_tarball_full_path": "C:\\Users\\harri\\miniconda3\\pkgs\\zeromq-4.3.3-ha925a31_3.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/CMake/ZeroMQConfig.cmake",
+        "path_type": "hardlink",
+        "sha256": "b48ce1ceb74f5ee93946520f92288362129c46521181b350bfd49028109ad95e",
+        "sha256_in_prefix": "b48ce1ceb74f5ee93946520f92288362129c46521181b350bfd49028109ad95e",
+        "size_in_bytes": 1795
+      },
+      {
+        "_path": "Library/CMake/ZeroMQConfigVersion.cmake",
+        "path_type": "hardlink",
+        "sha256": "d0816f55432476f2a34ee197dea5c681438bc75d6af48d01415ff9170d2d664d",
+        "sha256_in_prefix": "d0816f55432476f2a34ee197dea5c681438bc75d6af48d01415ff9170d2d664d",
+        "size_in_bytes": 1419
+      },
+      {
+        "_path": "Library/CMake/ZeroMQTargets-release.cmake",
+        "path_type": "hardlink",
+        "sha256": "5ead8ed162ae50881d63d103932b8aeb181c0e25a91ccf29ef28f37ff55a86cf",
+        "sha256_in_prefix": "5ead8ed162ae50881d63d103932b8aeb181c0e25a91ccf29ef28f37ff55a86cf",
+        "size_in_bytes": 1373
+      },
+      {
+        "_path": "Library/CMake/ZeroMQTargets.cmake",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "C:/ci/zeromq_1602704446950/_h_env",
+        "sha256": "b8c6e4d512b5d46a66d3f58f48ba280210ede08068aea05c4b3ca5fc5bccc9ce",
+        "sha256_in_prefix": "8a5090455b2133afe9217b9a4e034f3d24579ff6ad50a11d143236f038d1e661",
+        "size_in_bytes": 3813
+      },
+      {
+        "_path": "Library/bin/libzmq-mt-4_3_3.dll",
+        "path_type": "hardlink",
+        "sha256": "f1bb18266a1f9c2095393d0d7ecb6384d0eb688461668928063c7f4ff5a862be",
+        "sha256_in_prefix": "f1bb18266a1f9c2095393d0d7ecb6384d0eb688461668928063c7f4ff5a862be",
+        "size_in_bytes": 471552
+      },
+      {
+        "_path": "Library/bin/libzmq.dll",
+        "path_type": "hardlink",
+        "sha256": "f1bb18266a1f9c2095393d0d7ecb6384d0eb688461668928063c7f4ff5a862be",
+        "sha256_in_prefix": "f1bb18266a1f9c2095393d0d7ecb6384d0eb688461668928063c7f4ff5a862be",
+        "size_in_bytes": 471552
+      },
+      {
+        "_path": "Library/include/zmq.h",
+        "path_type": "hardlink",
+        "sha256": "b2e6fe3c720d1d87aee5da27725b66085db8437bd59d5e9e7cec7494f6782a1a",
+        "sha256_in_prefix": "b2e6fe3c720d1d87aee5da27725b66085db8437bd59d5e9e7cec7494f6782a1a",
+        "size_in_bytes": 30334
+      },
+      {
+        "_path": "Library/include/zmq_utils.h",
+        "path_type": "hardlink",
+        "sha256": "8bdd4cd98e9c87742bcb0e69625d762f234d02c6555f12a07c31455dc75f7362",
+        "sha256_in_prefix": "8bdd4cd98e9c87742bcb0e69625d762f234d02c6555f12a07c31455dc75f7362",
+        "size_in_bytes": 2401
+      },
+      {
+        "_path": "Library/lib/libzmq-mt-4_3_3.lib",
+        "path_type": "hardlink",
+        "sha256": "3099158c2e16cafadebc141592501ed850f58fc8b28226ed5bdd8bfcbfd7a97c",
+        "sha256_in_prefix": "3099158c2e16cafadebc141592501ed850f58fc8b28226ed5bdd8bfcbfd7a97c",
+        "size_in_bytes": 15932
+      },
+      {
+        "_path": "Library/lib/libzmq-mt-s-4_3_3.lib",
+        "path_type": "hardlink",
+        "sha256": "367b24929d7920ba64f820a3b2165c3b39fdc06b421cf7e677adbe2acc271a50",
+        "sha256_in_prefix": "367b24929d7920ba64f820a3b2165c3b39fdc06b421cf7e677adbe2acc271a50",
+        "size_in_bytes": 50477750
+      },
+      {
+        "_path": "Library/lib/libzmq.lib",
+        "path_type": "hardlink",
+        "sha256": "3099158c2e16cafadebc141592501ed850f58fc8b28226ed5bdd8bfcbfd7a97c",
+        "sha256_in_prefix": "3099158c2e16cafadebc141592501ed850f58fc8b28226ed5bdd8bfcbfd7a97c",
+        "size_in_bytes": 15932
+      },
+      {
+        "_path": "Library/lib/pkgconfig/libzmq.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "C:/ci/zeromq_1602704446950/_h_env",
+        "sha256": "25a1aa901a093abed5b21670e08560eea64f2c7eafc5522b7e0280b463f62134",
+        "sha256_in_prefix": "1d9265a60468969cddc7cdcc9d55bcb6614d6350c34a0ebf8b6877ee64904b55",
+        "size_in_bytes": 379
+      },
+      {
+        "_path": "Library/share/zmq/AUTHORS.txt",
+        "path_type": "hardlink",
+        "sha256": "9fffc079e68ef0b8c2e721e4b5353e403538d3ac0f553a18b82ad67e1d0741f4",
+        "sha256_in_prefix": "9fffc079e68ef0b8c2e721e4b5353e403538d3ac0f553a18b82ad67e1d0741f4",
+        "size_in_bytes": 2507
+      },
+      {
+        "_path": "Library/share/zmq/COPYING.LESSER.txt",
+        "path_type": "hardlink",
+        "sha256": "51995b90d879c6aeaf72e0576254d879615341d7bd5fda5240a257d54dc68da7",
+        "sha256_in_prefix": "51995b90d879c6aeaf72e0576254d879615341d7bd5fda5240a257d54dc68da7",
+        "size_in_bytes": 8685
+      },
+      {
+        "_path": "Library/share/zmq/COPYING.txt",
+        "path_type": "hardlink",
+        "sha256": "298401788102f8c22c91b84c8151e67aa92b3a699351718b5b32bcda61422362",
+        "sha256_in_prefix": "298401788102f8c22c91b84c8151e67aa92b3a699351718b5b32bcda61422362",
+        "size_in_bytes": 35823
+      },
+      {
+        "_path": "Library/share/zmq/NEWS.txt",
+        "path_type": "hardlink",
+        "sha256": "a6f7405cbb6deb39605f049bfa2b21180fd758d251e547eae663d9bb02b3df90",
+        "sha256_in_prefix": "a6f7405cbb6deb39605f049bfa2b21180fd758d251e547eae663d9bb02b3df90",
+        "size_in_bytes": 81440
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "6de8cd1130fd5ba383b14793d1840a0ab3999218511754a458ef641586cdc25d",
+  "size": 4383892,
+  "subdir": "win-64",
+  "timestamp": 1602704979034,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/zeromq-4.3.3-ha925a31_3.conda",
+  "version": "4.3.3"
+}

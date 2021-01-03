@@ -1,0 +1,45 @@
+{
+  "build": "h9490d1a_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "C:\\Users\\harri\\miniconda3\\pkgs\\pandoc-2.11-h9490d1a_0",
+  "features": "",
+  "files": [
+    "Scripts/pandoc.exe",
+    ".nonadmin"
+  ],
+  "fn": "pandoc-2.11-h9490d1a_0.conda",
+  "legacy_bz2_md5": "d1aa7e681e6f97040734fbb352db4d40",
+  "legacy_bz2_size": 19583432,
+  "license": "GPL-2.0",
+  "license_family": "GPL",
+  "link": {
+    "source": "C:\\Users\\harri\\miniconda3\\pkgs\\pandoc-2.11-h9490d1a_0",
+    "type": 1
+  },
+  "md5": "ac9b98e9ca7df5a4cfcfdc99dc9b22a1",
+  "name": "pandoc",
+  "package_tarball_full_path": "C:\\Users\\harri\\miniconda3\\pkgs\\pandoc-2.11-h9490d1a_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Scripts/pandoc.exe",
+        "path_type": "hardlink",
+        "sha256": "a90c96c5d8fc916035b956001323eb477ebec6be8e0d9f5aed7d20ed035c17b0",
+        "sha256_in_prefix": "a90c96c5d8fc916035b956001323eb477ebec6be8e0d9f5aed7d20ed035c17b0",
+        "size_in_bytes": 119476224
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "19f45c0fbd7e3e038017b5cd4ccdcd0615b445edd15b99e1bf681a11cc12fc81",
+  "size": 15066296,
+  "subdir": "win-64",
+  "timestamp": 1602681884878,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/pandoc-2.11-h9490d1a_0.conda",
+  "version": "2.11"
+}
