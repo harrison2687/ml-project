@@ -1,22 +1,100 @@
 <html>
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+<title>{% block title %} {% endblock %}</title>
+
+<style>
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+</style>
+
+</head>
+
 <body>
-    <h3>Video Game Predictor</h3>
-<div>
+
+<!-- Nav Bar -->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Blue Dot Gaming</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav me-auto mb-2 mb-md-0">
+        <li class="nav-item active">
+          <a class="nav-link" aria-current="page" href="/">Predictor</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="data">Data Visualization</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="login">Log Out</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<main class="container">
+<div class="starter-template text-center py-5 px-3">
+  <br><br>
+  <h3>Video Game Sales Prediction Engine</h3>
+  <br>
+  <p class="lead">Please fill out the following fields and press submit to get a predicted sales amount.</p>
+  <br>
   <form action="/predict" method="POST">
-    <label for="seplen">Sepal Length</label>
-    <input type="number" step="0.01" id="seplen" name="seplen">
+    <label for="criticScore">Anticipated Critic Score (0-100) : </label>
+    <input type="number" step="0.50" id="criticScore" name="criticScore", min="0", max="100">
     <br>
-    <label for="sepwid">Sepal Width</label>
-    <input type="number" step="0.01" id="sepwid" name="sepwid">
+    <label for="userScore">Anticipated User Score (0-10) : </label>
+    <input type="number" step="0.50" id="userScore" name="userScore", min="0", max="10">
     <br>
-    <label for="petlen">Petal Length</label>
-    <input type="number" step="0.01" id="petlen" name="petlen">
+    <label for="genre">Choose a Genre : </label>
+    <select id="genre" name="genre">
+      <option value='1'>Adventure</option>
+      <option value='2'>Action</option>
+      <option value='3'>Fighting</option>
+      <option value='4'>Misc</option>
+      <option value='5'>Platformer</option>
+      <option value='6'>Puzzle</option>
+      <option value='7'>Racing</option>
+      <option value='8'>Role-Playing</option>
+      <option value='9'>Shooter</option>
+      <option value='10'>Simulation</option>
+      <option value='11'>Sports</option>
+      <option value='12'>Strategy</option>
+    </select>
     <br>
-    <label for="petwid">Petal Width</label>
-    <input type="number" step="0.01" id="petwid" name="petwid">
-    <br>
+    <label for="rating"> Choose a Rating : </label>
+    <select id="rating" name="rating">
+      <option value='1'>E - Everyone</option>
+      <option value='2'>E10+ - Everyone 10+</option>
+      <option value='3'>T - Teen</option>
+      <option value='4'>M - Mature</option>
+      <option value='5'>AO - Adults Only</option>
+      <option value='6'>RP - Rating Pending</option>
+    </select>
+    <br><br>
     <input type="submit" value="Submit">
   </form>
 </div>
+</main>
+
+<br><br>
+{% block content %}{% endblock %}
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>
 </html>
