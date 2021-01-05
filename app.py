@@ -49,6 +49,10 @@ def logout():
 def dataVisualization():
     return render_template('data.html')
 
+@app.route('/pca')
+def pca():
+    return render_template('pca-visualization.html')
+
 def predictor(to_predict_list):
     to_predict = np.array(to_predict_list).reshape(1, 4)
     model = pickle.load(open('predictor.pkl','rb'))
