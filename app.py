@@ -53,6 +53,22 @@ def dataVisualization():
 def pca():
     return render_template('pca-visualization.html')
 
+@app.route('/salesbygenre')
+def salesbygenre():
+    return render_template('global_sales_by_genre.html')
+
+@app.route('/salesbyrating')
+def salesbyrating():
+    return render_template('global_sales_by_rating.html')
+
+@app.route('/criticscore')
+def criticscore():
+    return render_template('critic_score_scatter.html')
+
+@app.route('/userscore')
+def userscore():
+    return render_template('user_score_scatter.html')
+
 def predictor(to_predict_list):
     to_predict = np.array(to_predict_list).reshape(1, 4)
     model = pickle.load(open('predictor.pkl','rb'))
