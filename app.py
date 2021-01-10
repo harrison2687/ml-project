@@ -71,7 +71,7 @@ def userscore():
 
 def predictor(to_predict_list):
     to_predict = np.array(to_predict_list).reshape(1, 4)
-    model = pickle.load(open('predictor.pkl','rb'))
+    model = pickle.load(open('models/predictor.pkl','rb'))
     result = model.predict(to_predict)
     return result[0]
 
